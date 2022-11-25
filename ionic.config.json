@@ -1,0 +1,7 @@
+{
+  "name": "componentesDAMC2022",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
