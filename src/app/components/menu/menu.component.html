@@ -1,0 +1,15 @@
+<ion-menu side="start" menuId="primerMenu" contentId="principal">
+  <ion-header>
+    <ion-toolbar color="danger">
+      <ion-title>Mis componentes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-menu-toggle *ngFor="let componente of componentes">
+      <ion-item [routerLink]="componente.ruta" detail="true">
+        <ion-icon [name]="componente.icono" slot="start"></ion-icon>
+        <ion-label>{{ componente.nombre }}</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+  </ion-content>
+</ion-menu>

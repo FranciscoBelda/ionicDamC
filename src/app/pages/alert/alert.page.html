@@ -1,0 +1,11 @@
+<app-header [titulo]="titulo === ''? 'Alert Page': 'Hola ' + titulo"></app-header>
+
+<ion-content>
+
+  <ion-button (click)="abrirAlert()"
+    expand="full" color="secondary" >Abrir Alert</ion-button>
+
+  <ion-button (click)="abrirInput()"
+    expand="full" color="tertiary" >Abrir Input</ion-button>
+
+</ion-content>
