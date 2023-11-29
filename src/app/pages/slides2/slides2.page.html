@@ -1,0 +1,13 @@
+<app-header titulo="Slides Stories"></app-header>
+
+<ion-content class="ion-padding">
+
+  <swiper [config]="options">
+    <ng-template swiperSlide *ngFor="let a of [1,1,1,1,1,1,1,1,1]">
+      <ion-avatar class="ion-avatar">
+        <ion-img [src]="'/assets/images/chibi.jpg'"></ion-img>
+      </ion-avatar>
+    </ng-template>
+  </swiper>
+
+</ion-content>

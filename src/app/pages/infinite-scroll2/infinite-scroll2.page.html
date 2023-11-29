@@ -1,0 +1,26 @@
+<app-header titulo="Infinite Scroll v2"></app-header>
+
+<ion-content class="ion-padding">
+
+  <ion-list>
+    <ion-item mode="ios" button *ngFor="let item of movies">
+      <ion-avatar slot="start">
+        <ion-img [src]="imageUrl + '/w92' + item.poster_path"></ion-img>
+      </ion-avatar>
+      <ion-label>
+        {{item.title}}
+        <p>{{item.release_date | date:'y'}}</p>
+      </ion-label>
+
+      <ion-badge slot="end" color="success">
+        {{item.vote_average}}
+      </ion-badge>
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll (ionInfinite)="loadMore($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading data..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

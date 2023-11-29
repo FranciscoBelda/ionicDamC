@@ -33,5 +33,55 @@
     "nombre": "Slides con Swiper",
     "icono": "albums",
     "ruta": "/slides"
+  },
+  {
+    "nombre": "Slides Stories Instagram",
+    "icono": "logo-instagram",
+    "ruta": "/slides2"
+  },
+  {
+    "nombre": "Listas y Toast",
+    "icono": "list",
+    "ruta": "/lists"
+  },
+  {
+    "nombre": "Infinite Scroll",
+    "ruta": "/infinite-scroll",
+    "icono": "infinite"
+  },
+  {
+    "nombre": "Infinite Scroll v2",
+    "ruta": "/infinite-scroll2",
+    "icono": "infinite-outline"
+  },
+  {
+    "nombre": "Modal",
+    "ruta": "/modal",
+    "icono": "phone-portrait"
+  },
+  {
+    "nombre": "Tabs",
+    "ruta": "/tabs",
+    "icono": "cog"
+  },
+  {
+    "nombre": "Refresher y Skeleton",
+    "ruta": "/refresher",
+    "icono": "arrow-down-circle-outline"
+  },
+  {
+    "nombre": "Accordion",
+    "ruta": "/accordion",
+    "icono": "layers-outline"
+  },
+  {
+    "nombre": "Search Bar",
+    "ruta": "/search-bar",
+    "icono": "search"
+  },
+  {
+    "nombre": "Searchable Select",
+    "ruta": "/searchable-select",
+    "icono": "search-outline"
   }
 ]
